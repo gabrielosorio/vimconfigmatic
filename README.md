@@ -1,1 +1,3 @@
-My Vim Configuration on Mac OS.
+What?
+=====
+I like to keep my stuff both organized and distributed...
