@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/gabrielosorio/Documents/repos/Music180.com/vendor/gems'
 let g:netrw_dirhist_2='/Users/gabrielosorio/.rvm/gems/ruby-1.8.7-p357@rails2'
 let g:netrw_dirhist_3='/Users/gabrielosorio/Documents/repos/Music180.com/vendor/gems'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/Users/gabrielosorio/.vagrant.d/boxes/lucid32'
 let g:netrw_dirhist_6='/Users/gabrielosorio/Downloads/tpope-vim-surround-4eb2cdf/doc'
 let g:netrw_dirhist_7='/Users/gabrielosorio/Documents/repos/hive/.git'
 let g:netrw_dirhist_8='/Users/gabrielosorio/Documents/repos/beescene_promotional/config'
+let g:netrw_dirhist_9='/Users/gabrielosorio/Documents/repos/waza2013/app/templates/2012'
