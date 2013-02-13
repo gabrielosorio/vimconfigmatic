@@ -85,3 +85,9 @@ nnoremap <leader>n :NERDTree .<CR>
 " Highlight Trailing Spaces
 set list                        " show invisible characters
 set listchars=tab:>·,trail:·    " but only show tabs and trailing whitespace
+
+" Change focus in windows with Ctrl + <direction>
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
