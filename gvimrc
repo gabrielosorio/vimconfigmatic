@@ -4,7 +4,8 @@ set nocompatible
 " Add recently accessed projects menu
 set viminfo ^=!
 
-" Set insert cursor color to blue
+" Set insert and edit cursor color to blue
+highlight iCursor guifg=white guibg=steelblue
 highlight Cursor guifg=white guibg=steelblue
 
 " Minibuffer Explorer Settings
