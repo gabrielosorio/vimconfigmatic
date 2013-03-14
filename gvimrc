@@ -4,6 +4,9 @@ set nocompatible
 " Add recently accessed projects menu
 set viminfo ^=!
 
+" Set insert cursor color to blue
+highlight Cursor guifg=white guibg=steelblue
+
 " Minibuffer Explorer Settings
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
