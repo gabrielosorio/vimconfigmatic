@@ -1,5 +1,4 @@
 filetype on " Automatically detect file types
-set transparency=10
 set nocompatible
 " Add recently accessed projects menu
 set viminfo ^=!
@@ -68,8 +67,6 @@ set expandtab "Tabs are spaces
 
 " Styntax hilightning for .ejs files as pure HTML
 au BufNewFile,BufRead *.ejs set filetype=html
-
-set transparency=15
 
 " Emable matchit
 runtime macros/matchit.vim
