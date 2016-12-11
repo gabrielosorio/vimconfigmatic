@@ -15,3 +15,6 @@ augroup END
 
 " Map colon to semicolon for Mac keyboards
 :nmap ; :
+
+" Open NERDTree with leader+n
+map <Leader>n :NERDTreeToggle<CR>
