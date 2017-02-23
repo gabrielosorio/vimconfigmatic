@@ -1,3 +1,5 @@
+execute pathogen#infect()
+syntax on
 filetype indent plugin on
 
 " Highlight Trailing Spaces
@@ -18,3 +20,5 @@ augroup END
 
 " Open NERDTree with leader+n
 map <Leader>n :NERDTreeToggle<CR>
+
+colorscheme gruvbox

@@ -26,7 +26,6 @@ set ruler " Ruler on
 set nu "Line numbers on
 set nowrap " Disable line wrapping
 set timeoutlen=250 "Time to wait after ESC default causes an annoying delay
-colorscheme wombat " Esquema de colores
 
 " Formatting (some of these are for coding in C++)
 set ts=2 " Tabs are 2 spaces
@@ -88,3 +87,6 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+
+" MacVim transparency
+set transparency=9
