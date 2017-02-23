@@ -21,4 +21,7 @@ augroup END
 " Open NERDTree with leader+n
 map <Leader>n :NERDTreeToggle<CR>
 
+" Color Scheme
 colorscheme gruvbox
+set background=dark
+let g:gruvbox_contrast_dark = 'hard'

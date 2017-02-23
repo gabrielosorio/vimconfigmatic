@@ -89,4 +89,4 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l
 
 " MacVim transparency
-set transparency=9
+set transparency=7
