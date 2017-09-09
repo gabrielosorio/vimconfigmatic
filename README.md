@@ -9,6 +9,7 @@ $ git clone git@github.com:gabrielosorio/vimconfigmatic.git ~/.vim
 $ ln -s ~/.vim/vimrc ~/.vimrc
 $ ln -s ~/.vim/gvimrc ~/.gvimrc
 $ cd ~/.vim
+$ git clone https://github.com/morhetz/gruvbox.git ~/.vim/bundle/gruvbox # Install Theme
 $ git submodule init
 $ git submodule update
 ```
