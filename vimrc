@@ -28,3 +28,6 @@ let g:NERDTreeGlyphReadOnly = "RO"
 colorscheme gruvbox
 set background=dark
 let g:gruvbox_contrast_dark = 'hard'
+
+" Ctrl-P Fuzzy Navigation
+set runtimepath^=~/.vim/bundle/ctrlp.vim
