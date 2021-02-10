@@ -18,20 +18,10 @@ let g:rails_default_file='config/database.yml'
 
 syntax enable
 
-set cf " Enable error files & error jumping
-set clipboard+=unnamed " Yanks go on clipboard instead
-set history=256	" Number of things to remember in history
-set autowrite " Writes on make/shell commands
-set ruler " Ruler on
-set nu "Line numbers on
-set nowrap " Disable line wrapping
-set timeoutlen=250 "Time to wait after ESC default causes an annoying delay
-
 " Formatting (some of these are for coding in C++)
 set ts=2 " Tabs are 2 spaces
 set bs=2 " Backspace over everything in insert mode
 set shiftwidth=2 " Tabs under smart indent
-set nocp incsearch
 set cinoptions=:0,p0,t0
 set cinwords=if,else,while,do,for,switch,case,each
 set formatoptions=tcqr
@@ -50,7 +40,6 @@ set lcs=tab:\ \ ,eol:$,trail:~,extends:>,precedes:<
 set novisualbell " No blinking
 set noerrorbells " No noise
 set laststatus=2 " Always show status line
-set hlsearch " Enable highlight on search
 
 " gvim specific
 set mousehide " Hide mouse after chars typed
@@ -82,11 +71,11 @@ nnoremap <leader>n :NERDTree .<CR>
 set list                        " show invisible characters
 set listchars=tab:>·,trail:·    " but only show tabs and trailing whitespace
 
+" MacVim transparency
+set transparency=7
+
 " Change focus in windows with Ctrl + <direction>
 map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
-
-" MacVim transparency
-set transparency=7
