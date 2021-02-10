@@ -13,9 +13,6 @@ let g:miniBufExplModSelTarget = 1
 map <silent> <m-p> :cp <cr>
 map <silent> <m-n> :cn <cr>
 
-" Change wich file opens after executing :Rails command
-let g:rails_default_file='config/database.yml'
-
 syntax enable
 
 " Formatting (some of these are for coding in C++)
