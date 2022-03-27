@@ -25,6 +25,17 @@ augroup CursorLine
   au WinLeave * setlocal nocursorline
 augroup END
 
+" Simplify tidying up
+set list                     " show invisible characters
+set listchars=tab:>·,trail:· " but only show tabs and trailing whitespace
+
+" Highlight trailing spaces
+highlight ExtraWhitespace ctermbg=red guibg=red
+
+" Spaces to tabs
+set shiftwidth=2 " Tabs under smart indent
+set smarttab
+
 set hlsearch " Enable highlight on search
 set incsearch
 

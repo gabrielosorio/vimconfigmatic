@@ -32,8 +32,6 @@ set showmatch "Show matching brakets
 set mat=5 "Braket blinking
 set list
 
-"Show $ at the end of line and trailing space as ~
-set lcs=tab:\ \ ,eol:$,trail:~,extends:>,precedes:<
 set novisualbell " No blinking
 set noerrorbells " No noise
 set laststatus=2 " Always show status line
@@ -63,10 +61,6 @@ runtime macros/matchit.vim
 set autochdir
 let NERDTreeChDirMode=2
 nnoremap <leader>n :NERDTree .<CR>
-
-" Highlight Trailing Spaces
-set list                        " show invisible characters
-set listchars=tab:>·,trail:·    " but only show tabs and trailing whitespace
 
 " MacVim transparency
 set transparency=7
