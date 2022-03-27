@@ -10,6 +10,7 @@ set autowrite " Writes on make/shell commands
 set ruler " Ruler on
 set nowrap " Disable line wrapping
 set timeoutlen=250 "Time to wait after ESC default causes an annoying delay
+set mouse=a " Enable scrolling with mouse
 
 " Highlight Trailing Spaces
 highlight ExtraWhitespace ctermbg=red guibg=red
